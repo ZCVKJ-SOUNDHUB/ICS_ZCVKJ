@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBSC | College of Computer Studies - BSIT</title>
-    <script src="styles.css"></script>
+    <title>NBSC | Institute for  Computer Studies - BSIT</title>
+    <link rel="stylesheet" href="styles.css">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,8 +24,8 @@
                 extend: {
                     colors: {
                         nbsc: {
-                            green: '#064e3b', // Deep formal green
-                            gold: '#d97706',  // Academic gold
+                            green: '#064e3b', 
+                            green :  '#008000',  
                             dark: '#0f172a',
                             light: '#f8fafc'
                         }
@@ -80,19 +80,25 @@
                 <!-- Logo Area -->
                 <div class="flex items-center gap-3">
                     <!-- Placeholder Logo Icon -->
-                    <div class="w-12 h-12 bg-nbsc-green rounded-full flex items-center justify-center text-white shadow-lg">
-                        <i class="fa-solid fa-graduation-cap text-xl"></i>
+                    <div class="w-0 h-0 bg-nbsc-greentext-white rounded-full flex items-center justify-center text-white shadow-lg">
+                        
                     </div>
+                    <img src="ICS Official Logo (Version4).png" alt="NBSC ICS Logo" class="w-14 h-14 object-contain rounded-lg shadow-md">
+
                     <div>
                         <h1 class="font-serif font-bold text-nbsc-green text-lg leading-tight">Northern Bukidnon State College</h1>
-                        <p class="text-xs font-semibold tracking-wider text-nbsc-gold uppercase">College of Computer Studies</p>
+                        <p class="text-xs font-semibold tracking-wider text-nbsc-green uppercase">Institute for Computer Studies</p>
                     </div>
                 </div>
 
+               
+    
+    
+
                 <!-- Desktop Menu -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="#home" class="text-sm font-medium hover:text-nbsc-gold transition-colors">Home</a>
-                    <a href="#about" class="text-sm font-medium hover:text-nbsc-gold transition-colors">About Us</a>
+                    <a href="#home" class="text-sm font-medium hover:text-nbsc-green transition-colors">Home</a>
+                    <a href="#about" class="text-sm font-medium hover:text-nbsc-green transition-colors">About Us</a>
                     <a href="#programs" class="text-sm font-medium hover:text-nbsc-gold transition-colors">BSIT Program</a>
                     <a href="#faculty" class="text-sm font-medium hover:text-nbsc-gold transition-colors">Faculty</a>
                     <a href="#contact" class="px-5 py-2 text-sm font-medium text-white bg-nbsc-green rounded-md hover:bg-nbsc-gold transition-colors shadow-md">Contact Us</a>
@@ -120,16 +126,16 @@
     <!-- Hero Section -->
     <section id="home" class="hero-bg min-h-screen flex items-center justify-center relative pt-20">
         <div class="container mx-auto px-6 text-center text-white fade-in-section">
-            <span class="inline-block py-1 px-3 rounded-full bg-nbsc-gold/20 border border-nbsc-gold/50 text-nbsc-gold text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-sm">Excellence in Technology</span>
+            <span class="inline-block py-1 px-3 rounded-full bg-nbsc-green/20 border border-nbsc-green/50 text-nbsc-green text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-sm">Excellence in Technology</span>
             <h1 class="font-serif text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 Shaping the Future of <br/>
-                <span class="text-nbsc-gold">Information Technology</span>
+                <span class="text-nbsc-green">Information Technology</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
                 The BSIT Department at Northern Bukidnon State College is committed to producing globally competent and innovative IT professionals rooted in ethical values.
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#programs" class="px-8 py-3 bg-nbsc-gold text-white font-semibold rounded hover:bg-yellow-600 transition-all shadow-lg transform hover:-translate-y-1">
+                <a href="#programs" class="px-8 py-3 bg-nbsc-greentext-white font-semibold rounded hover:bg-yellow-600 transition-all shadow-lg transform hover:-translate-y-1">
                     Explore Curriculum
                 </a>
                 <a href="#about" class="px-8 py-3 bg-transparent border-2 border-white text-white font-semibold rounded hover:bg-white hover:text-nbsc-green transition-all">
